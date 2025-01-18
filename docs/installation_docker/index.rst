@@ -57,11 +57,19 @@ Exemplary output:
 
     3ac1c416bfacb82918d56720d1c3104fd96e8b8d4fbee42343ae7512a9ced293
 
+Open the config file you just made with your favorite text editor:
+
+.. code-block:: bash
+
+   vim docker/byceps/config.toml
+
+
 Set this value in your configuration file so the line looks like this:
 
 .. code-block:: toml
 
     SECRET_KEY = "3ac1c416bfacb82918d56720d1c3104fd96e8b8d4fbee42343ae7512a9ced293"
+
 
 .. attention:: Do **not** use the above key (or any other key you copied
    from anywhere). Generate **your own** secret key!
